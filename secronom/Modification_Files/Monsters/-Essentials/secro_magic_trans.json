@@ -3106,20 +3106,6 @@
   },
   {
     "type": "SPELL",
-    "id": "secro_flesh_infect_feral_human_archaeologist",
-    "name": { "str": "Morph" },
-    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Target is converted into its flesh variant.'",
-    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
-    "valid_targets": [ "self" ],
-    "min_damage": 999999,
-    "max_damage": 999999,
-    "message": "",
-    "effect": "targeted_polymorph",
-    "shape": "blast",
-    "effect_str": "mon_sflesh_feral_human_archaeologist"
-  },
-  {
-    "type": "SPELL",
     "id": "secro_flesh_infect_bat",
     "name": { "str": "Morph" },
     "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Target is converted into its flesh variant.'",
