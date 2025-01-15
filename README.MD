@@ -1,3 +1,5 @@
+Below is old information from Kenan's fork. Their discord is still functional and the update instructions are still relevant. I am in the discord but I am rather transient so I'm not always paying attention to it.
+
 # Secronom-Zombies
 **Axema's GREAT and LEGENDARY mod!My personally maintained and forked version**
 
