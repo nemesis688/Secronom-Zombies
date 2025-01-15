@@ -24,19 +24,18 @@
     "valid_mod_locations": [ [ "SPEMF accessories", 1 ], [ "SPEMF gun morphs", 2 ] ],
     "default_mods": [ "secro_fleshmech_gun_acid", "secro_fleshmech_gun_acid_large", "secro_fleshmech_gun_spikes_large" ],
     "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "AUTO", "high auto", 5 ] ],
-    "relic_data": {
+	"relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_BASH", "add": -33 },
-            { "value": "ARMOR_CUT", "add": -22 },
-            { "value": "ARMOR_STAB", "add": -24 },
-            { "value": "ARMOR_BULLET", "add": -24 },
-            { "value": "ARMOR_ACID", "add": -8 }
-          ],
-          "ench_effects": [ { "effect": "controlled", "intensity": 1 } ]
+          "incoming_damage_mod": [
+			{ "type": "bash", "add": -33 },
+			{ "type": "cut", "add": -22 },
+			{ "type": "stab", "add": -24 },
+			{ "type": "bullet", "add": -24 },
+			{ "type": "acid", "add": -8 }
+		]
         }
       ]
     },

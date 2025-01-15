@@ -344,8 +344,10 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
+		  "incoming_damage_mod": [
+			{ "type": "biological", "add": -1 }
+		 ],
           "values": [
-            { "value": "ARMOR_BIO", "add": -1 },
             { "value": "MAX_HP", "multiply": 0.05 },
             { "value": "METABOLISM", "multiply": -0.2 }
           ],

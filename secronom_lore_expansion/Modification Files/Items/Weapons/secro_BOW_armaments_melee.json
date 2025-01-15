@@ -107,17 +107,19 @@
     "volume": "2000 ml",
     "longest_side": "70 cm",
     "melee_damage": { "bash": 14 },
-    "relic_data": {
+	"relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "SPEED", "multiply": -0.5 },
-            { "value": "ARMOR_BASH", "add": -10 },
-            { "value": "ARMOR_CUT", "add": -10 },
-            { "value": "ARMOR_STAB", "add": -10 },
-            { "value": "ARMOR_BULLET", "add": -10 }
+          "incoming_damage_mod": [
+			{ "type": "bash", "add": -10 },
+			{ "type": "cut", "add": -10 },
+			{ "type": "stab", "add": -10 },
+			{ "type": "bullet", "add": -10 }
+		],
+		"values": [
+            { "value": "SPEED", "multiply": -0.5 }
           ]
         }
       ]
