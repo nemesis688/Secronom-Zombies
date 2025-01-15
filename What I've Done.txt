@@ -1,0 +1,23 @@
+1/14/2025
+- Built againsts experimental '2025-01-12-1820' still worked in '2025-01-14-1553'
+
+
+The item groups are bit jank since I just pulled out and mildly tweaked old ones.
+They will break again once the obsoleted guns are fully removed from the game files.
+
+Some monsters had to get pruned cause the ones they came from (golden goose and a feral) got removed from base game.
+
+ATM terrain updated into ATM Furniture (Off)
+
+EOC was (hopefully) updated to use the new syntax.
+
+relic data & passive effects (hopefully) updated to use the new format for bonus damage and damage reduction.
+
+Battery pocket updated and atomic battery references removed.
+
+Monster Harvest fields updated. Most were using the obsolated "zombie" harvest group. Tried to used base game harvest types to match the monster.
+
+
+The only testing I did was that I could launch into a new game (new world and new character) without any errors.
+
+-- Fohcs

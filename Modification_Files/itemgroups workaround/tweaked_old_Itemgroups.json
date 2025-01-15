@@ -1,0 +1,587 @@
+[
+  {
+    "type": "item_group",
+    "id": "mags_pistol_common_secro",
+    "//": "Factory specification pistol magazines commonly owned by citizens.",
+    "items": [
+      [ "38_speedloader", 8 ],
+      [ "38_speedloader5", 6 ],
+      [ "38_speedloader6", 7 ],
+      [ "40_speedloader6", 10 ],
+      [ "glock17_17", 14 ],
+      [ "glock17_22", 6 ],
+      [ "px4mag", 55 ],
+      [ "px4mag_10rd", 5 ],
+      [ "px4mag_15rd", 25 ],
+      [ "px4mag_20rd", 5 ],
+      [ "px4_40mag", 6 ],
+      [ "glockmag", 33 ],
+      [ "glock40mag", 7 ],
+      [ "glock_20mag", 3 ],
+      [ "glock_21mag", 5 ],
+      [ "glock_29mag", 2 ],
+      [ "m1911mag", 25 ],
+      [ "m1911_10mag", 2 ],
+      [ "mosquitomag", 10 ],
+      [ "kpf9mag", 5 ],
+      [ "kpf9mag_8rd", 2 ],
+      [ "kp3atmag", 4 ],
+      [ "rugerlcpmag", 10 ],
+      [ "sw22mag", 10 ],
+      [ "p220_10_mag", 1 ],
+      [ "p226mag_12rd_357sig", 25 ],
+      [ "p320mag_13rd_357sig", 10 ],
+      [ "bhp9mag_13rd", 2 ],
+      [ "bhp9mag_15rd", 1 ],
+      [ "ppq9mag_10rd", 4 ],
+      [ "ppq9mag_15rd", 2 ],
+      [ "ppq9mag_17rd", 1 ],
+      [ "ppq40mag_10rd", 3 ],
+      [ "ppq40mag_12rd", 2 ],
+      [ "ppq40mag_14rd", 1 ],
+      [ "ppq45mag", 1 ],
+      [ "taurus_spectrum_mag", 1 ],
+      [ "hptc9", 1 ],
+      [ "hptcf380", 1 ],
+      [ "hptjcp", 1 ],
+      [ "hptjhp", 1 ],
+      [ "witness_mag_10", 2 ],
+      [ "cz75mag_12rd", 9 ],
+      [ "cz75mag_20rd", 5 ],
+      [ "cz75mag_26rd", 2 ],
+      [ "ccpmag", 4 ],
+      [ "ccpmag_9rd", 1 ],
+      [ "xd_10_mag", 1 ],
+      [ "ruger_57mag", 10 ],
+      [ "ruger_57_10_round_mag", 10 ],
+      [ "wp22mag", 7 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_pistol_rare_secro",
+    "//": "Aftermarket or otherwise uncommon pistol magazines excluding milspec.",
+    "items": [
+      [ "22_speedloader8", 15 ],
+      [ "44_speedloader6", 15 ],
+      [ "454_speedloader5", 5 ],
+      [ "454_speedloader6", 5 ],
+      [ "500_speedloader5", 5 ],
+      [ "glock_drum_50rd", 5 ],
+      [ "glock_drum_100rd", 5 ],
+      [ "glock_21mag26", 5 ],
+      [ "90two40mag", 5 ],
+      [ "deaglemag", 40 ],
+      [ "fn57mag", 80 ],
+      [ "cz75mag_26rd", 2 ],
+      [ "tdi_10mm_mag", 1 ],
+      [ "glock40bigmag", 30 ],
+      [ "m1911bigmag", 40 ],
+      [ "m1911mag_10rd_38super", 10 ],
+      [ "m9bigmag", 20 ],
+      [ "m9mag_10rd", 20 ],
+      [ "m9mag_17rd", 30 ],
+      [ "m9mag_18rd", 5 ],
+      [ "m9mag_20rd", 20 ],
+      [ "m9mag_32rd", 2 ],
+      [ "m9mag_35rd", 2 ],
+      [ "sig40mag", 40 ],
+      [ "sigp230mag", 40 ],
+      [ "j22mag", 1 ],
+      [ "kp32mag", 5 ],
+      [ "fn1910mag", 2 ],
+      { "item": "fnp90mag", "prob": 2, "charges": [ 0, 50 ] },
+      [ "p38mag", 1 ],
+      [ "ppkmag", 15 ],
+      [ "usp9mag_10rd", 5 ],
+      [ "usp9mag_18rd", 5 ],
+      [ "usp9mag_20rd", 3 ],
+      [ "usp9mag_32rd", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_smg_common_secro",
+    "//": "Factory specification SMG magazines commonly owned by citizens.",
+    "items": [
+      [ "mac10mag", 10 ],
+      [ "mac11mag", 5 ],
+      [ "mp5mag", 10 ],
+      [ "mp5mag_10rd", 2 ],
+      [ "mp5mag_15rd", 2 ],
+      [ "mp5mag_20rd", 2 ],
+      [ "stenmag", 5 ],
+      [ "tec9mag", 10 ],
+      [ "tec9mag_10rd", 6 ],
+      [ "tec9mag_20rd", 3 ],
+      [ "tec9mag_30rd", 5 ],
+      [ "tec9mag_36rd", 1 ],
+      [ "tec9mag_50rd", 3 ],
+      [ "tec9mag_72rd", 1 ],
+      [ "tdi_mag", 5 ],
+      [ "thompson_mag", 5 ],
+      [ "ump45mag", 5 ],
+      [ "uzimag", 10 ],
+      [ "uzimag_20rd", 1 ],
+      [ "uzimag_25rd", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_common_secro",
+    "//": "Factory specification rifle magazines commonly owned by citizens.",
+    "items": [
+      { "item": "blrmag", "prob": 5, "charges": [ 0, 4 ] },
+      { "item": "m14mag", "prob": 40, "charges": [ 0, 20 ] },
+      { "item": "m14smallmag", "prob": 40, "charges": [ 0, 5 ] },
+      [ "marlin_tubeloader", 5 ],
+      { "item": "ruger1022mag", "prob": 100, "charges": [ 0, 10 ] },
+      { "item": "ruger5", "prob": 50, "charges": [ 0, 5 ] },
+      { "item": "ruger10", "prob": 30, "charges": [ 0, 10 ] },
+      { "item": "stanag10", "prob": 30, "charges": [ 0, 10 ] },
+      { "item": "ruger20", "prob": 15, "charges": [ 0, 20 ] },
+      { "item": "ruger30", "prob": 20, "charges": [ 0, 30 ] },
+      { "item": "ruger90", "prob": 3, "charges": [ 0, 90 ] },
+      { "item": "ruger100", "prob": 5, "charges": [ 0, 100 ] },
+      { "item": "stanag5", "prob": 5, "charges": [ 0, 5 ] },
+      { "item": "stanag10", "prob": 5, "charges": [ 0, 10 ] },
+      { "item": "stanag20", "prob": 5, "charges": [ 0, 20 ] },
+      { "item": "stanag30", "prob": 10, "charges": [ 0, 30 ] },
+      { "item": "stanag40", "prob": 3, "charges": [ 0, 40 ] },
+      { "item": "ar10mag_20rd", "prob": 30, "charges": [ 0, 20 ] },
+      { "item": "akmag30", "prob": 25, "charges": [ 0, 30 ] },
+      { "item": "zpap85mag", "prob": 25, "charges": [ 0, 30 ] },
+      { "item": "papm77mag_10rd", "prob": 25, "charges": [ 0, 10 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_rare_secro",
+    "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
+    "items": [
+      [ "akmag10", 40 ],
+      [ "akmag20", 40 ],
+      [ "akmag40", 40 ],
+      [ "akdrum75", 30 ],
+      { "group": "common_magazines_762", "prob": 20 },
+      [ "clip303_5rd", 15 ],
+      [ "enfield_303mag", 4 ],
+      [ "fnp90mag", 15 ],
+      [ "falmag", 100 ],
+      [ "falbigmag", 50 ],
+      [ "g3mag", 80 ],
+      [ "g3bigmag", 40 ],
+      [ "m1918bigmag", 40 ],
+      [ "ruger1022bigmag", 70 ],
+      [ "stanag60drum", 10 ],
+      [ "stanag90", 10 ],
+      [ "stanag100drum", 15 ],
+      [ "stanag150", 10 ],
+      [ "augmag_10rd", 5 ],
+      [ "augmag_30rd", 15 ],
+      [ "augmag_42rd", 5 ],
+      [ "augmag_100rd", 2 ],
+      [ "g36mag_30rd", 15 ],
+      [ "g36mag_100rd", 3 ],
+      [ "usc10mag", 5 ],
+      [ "usc15mag", 7 ],
+      [ "usc20mag", 20 ],
+      [ "m1carbinebigmag", 30 ],
+	  [ "cheytacmag", 25 ],
+      [ "hecatemag", 15 ],
+	  [ "walther2000mag", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rare_secro",
+    "//": "Aftermarket or otherwise uncommon magazines.",
+    "items": [ { "group": "mags_pistol_rare_secro", "prob": 70 }, { "group": "mags_rifle_rare_secro", "prob": 20 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_obscure_secro",
+    "//": "Imported or otherwise very obscure pistols that are highly rare, but which are still, mostly, ownable by common civilian’s, either normally or via an NFA permit.  For example, reasonably modern and uncommon foreign military pistols and weapons capable of automatic forms of fire can be placed in this item group.  Purely highly rare collector quality and historically valuable guns are handled elsewhere.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "items": [
+      { "group": "nested_af2011a1_38super", "prob": 1 },
+      { "group": "nested_bfr", "prob": 100 },
+      { "group": "nested_cop_38", "prob": 100 },
+      { "group": "nested_m1911_MEU", "prob": 3 },
+      { "group": "nested_makarov", "prob": 100 },
+      { "group": "nested_mauser_c96", "prob": 39 },
+      { "group": "nested_moss_brownie", "prob": 100 },
+      { "group": "nested_mr73", "prob": 5 },
+      { "group": "nested_pistol_flintlock", "prob": 150 },
+      { "group": "nested_raging_bull", "prob": 100 },
+      { "group": "nested_raging_judge", "prob": 20 },
+      { "group": "nested_tokarev", "prob": 100 },
+      { "group": "nested_walther_ppk", "prob": 100 },
+      { "group": "guns_pistol_collectible", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_obscure_secro",
+    "//": "Imported or otherwise very obscure guns of all types.",
+    "items": [
+      { "group": "guns_pistol_obscure_secro", "prob": 100 },
+      { "item": "ppsh", "prob": 150, "charges-min": 0, "charges-max": 0 },
+      { "item": "hk_mp5_10_semi", "prob": 1, "charges-min": 0, "charges-max": 0 },
+      { "item": "skorpion_61", "prob": 100, "charges-min": 0, "charges-max": 0 },
+      { "item": "skorpion_82", "prob": 100, "charges-min": 0, "charges-max": 0 },
+      { "item": "mp18", "variant": "mp18", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "group": "nested_ak47", "prob": 100 },
+      { "group": "nested_ak74", "prob": 60 },
+      { "group": "nested_bh_m89", "prob": 20 },
+      { "group": "nested_bfg50", "prob": 5 },
+      { "group": "nested_carbine_flintlock", "prob": 140 },
+      { "group": "nested_famas", "prob": 1 },
+      { "group": "nested_m60_semi", "prob": 10 },
+      { "group": "nested_rifle_flintlock", "prob": 180 },
+      { "group": "nested_oa93", "prob": 3 },
+      { "group": "nested_steyr_aug", "prob": 40 },
+      { "group": "nested_win70_458", "prob": 60 },
+      { "group": "nested_arx160", "prob": 40 },
+      { "group": "guns_rifle_display_pieces", "prob": 35 },
+      { "group": "nested_psl", "prob": 10 },
+      { "group": "nested_iwi_tavor_x95_300blk", "prob": 10 },
+      { "group": "nested_acr_300blk", "prob": 15 },
+      { "group": "nested_ak308", "prob": 25 },
+      { "group": "nested_papm77", "prob": 15 },
+      { "group": "nested_saiga_12", "prob": 50 },
+      { "group": "nested_streetsweeper", "prob": 4 },
+      { "group": "nested_saiga_410", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_rare_secro",
+    "//": "Less common SMGs including those only used by police/paramilitary forces.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "items": [
+      { "group": "nested_calico", "prob": 30 },
+      { "group": "nested_fn_p90", "prob": 50 },
+      { "group": "nested_mp40", "prob": 185 },
+      { "group": "nested_tommygun", "prob": 70 },
+      { "group": "nested_sten", "prob": 100 },
+      { "group": "nested_uzi", "prob": 100 },
+      { "group": "nested_hk_mp5", "prob": 100 },
+      { "group": "nested_hk_mp5sd", "prob": 5 },
+      { "group": "nested_hk_ump45", "prob": 30 },
+      { "group": "nested_mac_10", "prob": 40 },
+      { "group": "nested_mac_11", "prob": 20 },
+      { "group": "nested_TDI", "prob": 10 },
+      { "group": "nested_american_180", "prob": 50 },
+      { "group": "nested_briefcase_smg", "prob": 5 },
+      { "group": "nested_tec9", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_common_secro",
+    "//": "Semi-auto civilian SMGs owned by citizens and found in many locations.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "items": [ { "group": "nested_mp40semi", "prob": 200 }, { "group": "nested_hk_mp5_semi_pistol", "prob": 70 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare_secro",
+    "//": "Less common rifles including those only used by police/paramilitary forces.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "items": [
+      { "group": "nested_m16_auto_rifle", "prob": 25 },
+      { "group": "nested_colt_lightning", "prob": 15 },
+      { "group": "nested_fn_fal", "prob": 40 },
+      { "group": "nested_fs2000", "prob": 6 },
+      { "group": "nested_m249_semi", "prob": 5 },
+      { "group": "nested_hk_g3", "prob": 40 },
+      { "group": "nested_hk_g36", "prob": 30 },
+      { "group": "nested_henry_big_boy", "prob": 10 },
+      { "group": "nested_m14ebr", "prob": 15 },
+      { "group": "nested_M24", "prob": 15 },
+      { "group": "nested_m4_carbine", "prob": 45 },
+      { "group": "nested_m1903", "prob": 15 },
+      { "group": "nested_mk3", "prob": 10 },
+      { "group": "nested_number4", "prob": 10 },
+      { "group": "nested_m1918", "prob": 30 },
+      { "group": "nested_mosin44_ebr", "prob": 10 },
+      { "group": "nested_psl", "prob": 5 },
+      { "group": "nested_mosin91_30_ebr", "prob": 20 },
+      { "group": "nested_remington_700", "prob": 20 },
+      { "group": "nested_savage_111f", "prob": 15 },
+      { "group": "nested_sharps", "prob": 15 },
+      { "group": "nested_weatherby_5", "prob": 15 },
+      { "group": "nested_hk417_13", "prob": 40 },
+      { "group": "nested_ar15", "prob": 15 },
+      { "group": "nested_iwi_tavor_x95_300blk", "prob": 10 },
+      { "group": "nested_hk_usc45", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_rare_secro",
+    "//": "Uncommon or rare shotguns in civilian possession.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "nested_ksg", "prob": 50 },
+      { "group": "nested_ksg-25", "prob": 8 },
+      { "group": "nested_tavor_12", "prob": 5 },
+      { "group": "nested_m1014", "prob": 10 },
+      { "group": "nested_slp", "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_rare_static_secro",
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "ksg", "prob": 50, "charges-min": 0, "charges-max": 7 },
+      { "item": "ksg-25", "prob": 8, "charges-min": 0, "charges-max": 12 },
+      { "item": "tavor_12", "prob": 5, "charges-min": 0, "charges-max": 5 },
+      { "item": "mossberg_930", "variant": "m1014", "prob": 10, "charges-min": 0, "charges-max": 8 },
+      { "item": "mossberg_590", "variant": "slp", "prob": 2, "charges-min": 0, "charges-max": 9 },
+      { "item": "winchester_1887", "prob": 10, "charges-min": 0, "charges-max": 6 },
+      { "item": "winchester_1897", "prob": 7, "charges-min": 0, "charges-max": 6 }
+    ]
+  },
+  {
+    "id": "nested_bh_m89",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "bh_m89", "charges-min": 0, "charges-max": 7 }, { "group": "on_hand_500" } ]
+  },
+  {
+    "id": "nested_famas",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "famas", "charges-min": 0, "charges-max": 25 },
+      { "item": "famasmag" },
+      { "item": "famasmag", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_oa93",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "oa93", "charges-min": 0, "charges-max": 30 },
+      { "group": "stanag_10_random" },
+      { "group": "stanag_10_random", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_arx160",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "arx160", "charges-min": 0, "charges-max": 30 },
+      { "item": "akmag10" },
+      { "item": "akmag10", "prob": 50 },
+      { "group": "on_hand_762" }
+    ]
+  },
+  {
+    "id": "nested_iwi_tavor_x95_300blk",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "iwi_tavor_x95_300blk", "charges-min": 0, "charges-max": 30 },
+      { "group": "stanag_30_random" },
+      { "group": "stanag_30_random", "prob": 50 },
+      { "group": "on_hand_300BLK" }
+    ]
+  },
+  {
+    "id": "nested_acr_300blk",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "acr_300blk", "charges-min": 0, "charges-max": 30 },
+      { "item": "stanag30" },
+      { "item": "stanag30", "prob": 50 },
+      { "group": "on_hand_300BLK" }
+    ]
+  },
+  {
+    "id": "nested_streetsweeper",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "streetsweeper", "charges-min": 0, "charges-max": 12 }, { "group": "on_hand_shot" } ]
+  },
+  {
+    "id": "nested_saiga_410",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "saiga_410", "charges-min": 0, "charges-max": 10 },
+      { "item": "saiga410mag_10rd" },
+      { "item": "saiga410mag_10rd", "prob": 50 },
+      { "group": "on_hand_410shot" }
+    ]
+  },
+  {
+    "id": "nested_m1911a1_38super",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "m1911a1_38super", "charges-min": 0, "charges-max": 9 },
+      { "item": "m1911mag_10rd_38super" },
+      { "item": "m1911mag_10rd_38super", "prob": 50 },
+      { "group": "on_hand_38super" }
+    ]
+  },
+  {
+    "id": "nested_cop_38",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "cop_38", "charges-min": 0, "charges-max": 4 }, { "group": "on_hand_38" } ]
+  },
+  {
+    "id": "nested_moss_brownie",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "moss_brownie" }, { "group": "on_hand_22" } ]
+  },
+  {
+    "id": "nested_mr73",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mr73", "charges-min": 0, "charges-max": 6 },
+      { "group": "on_hand_357_38mixed" },
+      { "item": "38_speedloader6" },
+      { "item": "38_speedloader6", "prob": 50 }
+    ]
+  },
+  {
+    "id": "nested_raging_judge",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "raging_judge" }, { "group": "on_hand_454" } ]
+  },
+  {
+    "id": "nested_colt_lightning",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "colt_lightning", "charges-min": 0, "charges-max": 14 }, { "group": "on_hand_45colt" } ]
+  },
+  {
+    "id": "nested_fs2000",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "fs2000", "charges-min": 0, "charges-max": 30 },
+      { "group": "stanag_30_random" },
+      { "group": "stanag_30_random", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_hk_g36",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "hk_g36", "charges-min": 0, "charges-max": 30 },
+      { "item": "g36mag_30rd" },
+      { "item": "g36mag_30rd", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_iwi_tavor_x95_300blk",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "iwi_tavor_x95_300blk", "charges-min": 0, "charges-max": 30 },
+      { "group": "stanag_30_random" },
+      { "group": "stanag_30_random", "prob": 50 },
+      { "group": "on_hand_300BLK" }
+    ]
+  },
+  {
+    "id": "nested_ksg-25",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "ksg", "charges-min": 0, "charges-max": 12 }, { "group": "on_hand_shot" } ]
+  },
+  {
+    "id": "nested_hk_ump45",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "hk_ump45", "charges-min": 0, "charges-max": 25 },
+      { "item": "ump45mag" },
+      { "item": "ump45mag", "prob": 50 },
+      { "group": "on_hand_45" }
+    ]
+  },
+  {
+    "id": "nested_af2011a1_38super",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "af2011a1_38super" },
+      { "item": "af2011a1mag" },
+      { "item": "af2011a1mag", "prob": 50 },
+      { "group": "on_hand_38super" }
+    ]
+  },
+  {
+    "id": "nested_american_180",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "american_180", "charges-min": 0, "charges-max": 100 },
+      { "item": "a180mag" },
+      { "item": "a180mag", "prob": 50 },
+      { "group": "on_hand_22" }
+    ]
+  }
+]
