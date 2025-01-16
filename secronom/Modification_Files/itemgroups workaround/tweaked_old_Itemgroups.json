@@ -23,9 +23,6 @@
       [ "m1911mag", 25 ],
       [ "m1911_10mag", 2 ],
       [ "mosquitomag", 10 ],
-      [ "kpf9mag", 5 ],
-      [ "kpf9mag_8rd", 2 ],
-      [ "kp3atmag", 4 ],
       [ "rugerlcpmag", 10 ],
       [ "sw22mag", 10 ],
       [ "p220_10_mag", 1 ],
@@ -33,14 +30,6 @@
       [ "p320mag_13rd_357sig", 10 ],
       [ "bhp9mag_13rd", 2 ],
       [ "bhp9mag_15rd", 1 ],
-      [ "ppq9mag_10rd", 4 ],
-      [ "ppq9mag_15rd", 2 ],
-      [ "ppq9mag_17rd", 1 ],
-      [ "ppq40mag_10rd", 3 ],
-      [ "ppq40mag_12rd", 2 ],
-      [ "ppq40mag_14rd", 1 ],
-      [ "ppq45mag", 1 ],
-      [ "taurus_spectrum_mag", 1 ],
       [ "hptc9", 1 ],
       [ "hptcf380", 1 ],
       [ "hptjcp", 1 ],
@@ -70,7 +59,6 @@
       [ "glock_drum_50rd", 5 ],
       [ "glock_drum_100rd", 5 ],
       [ "glock_21mag26", 5 ],
-      [ "90two40mag", 5 ],
       [ "deaglemag", 40 ],
       [ "fn57mag", 80 ],
       [ "cz75mag_26rd", 2 ],
@@ -89,7 +77,6 @@
       [ "sigp230mag", 40 ],
       [ "j22mag", 1 ],
       [ "kp32mag", 5 ],
-      [ "fn1910mag", 2 ],
       { "item": "fnp90mag", "prob": 2, "charges": [ 0, 50 ] },
       [ "p38mag", 1 ],
       [ "ppkmag", 15 ],
@@ -210,7 +197,6 @@
       { "group": "nested_m1911_MEU", "prob": 3 },
       { "group": "nested_makarov", "prob": 100 },
       { "group": "nested_mauser_c96", "prob": 39 },
-      { "group": "nested_moss_brownie", "prob": 100 },
       { "group": "nested_mr73", "prob": 5 },
       { "group": "nested_pistol_flintlock", "prob": 150 },
       { "group": "nested_raging_bull", "prob": 100 },
@@ -239,10 +225,8 @@
       { "group": "nested_famas", "prob": 1 },
       { "group": "nested_m60_semi", "prob": 10 },
       { "group": "nested_rifle_flintlock", "prob": 180 },
-      { "group": "nested_oa93", "prob": 3 },
       { "group": "nested_steyr_aug", "prob": 40 },
       { "group": "nested_win70_458", "prob": 60 },
-      { "group": "nested_arx160", "prob": 40 },
       { "group": "guns_rifle_display_pieces", "prob": 35 },
       { "group": "nested_psl", "prob": 10 },
       { "group": "nested_iwi_tavor_x95_300blk", "prob": 10 },
@@ -368,32 +352,6 @@
     ]
   },
   {
-    "id": "nested_oa93",
-    "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
-    "subtype": "collection",
-    "ammo": 100,
-    "entries": [
-      { "item": "oa93", "charges-min": 0, "charges-max": 30 },
-      { "group": "stanag_10_random" },
-      { "group": "stanag_10_random", "prob": 50 },
-      { "group": "on_hand_223" }
-    ]
-  },
-  {
-    "id": "nested_arx160",
-    "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
-    "subtype": "collection",
-    "ammo": 100,
-    "entries": [
-      { "item": "arx160", "charges-min": 0, "charges-max": 30 },
-      { "item": "akmag10" },
-      { "item": "akmag10", "prob": 50 },
-      { "group": "on_hand_762" }
-    ]
-  },
-  {
     "id": "nested_iwi_tavor_x95_300blk",
     "type": "item_group",
     "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
@@ -460,14 +418,6 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [ { "item": "cop_38", "charges-min": 0, "charges-max": 4 }, { "group": "on_hand_38" } ]
-  },
-  {
-    "id": "nested_moss_brownie",
-    "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
-    "subtype": "collection",
-    "ammo": 100,
-    "entries": [ { "item": "moss_brownie" }, { "group": "on_hand_22" } ]
   },
   {
     "id": "nested_mr73",
