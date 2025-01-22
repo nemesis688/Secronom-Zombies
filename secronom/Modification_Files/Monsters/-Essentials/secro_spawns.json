@@ -1,7 +1,7 @@
 [
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE",
+    "id": "GROUP_ZOMBIE",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "name": "GROUP_SECROZEDS",
+    "id": "GROUP_SECROZEDS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_zombie_spoder", "weight": 500 },
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "GROUP_SECRO_SWARMERS",
+    "id": "GROUP_SECRO_SWARMERS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_zombie_swarmer_weak", "weight": 100, "pack_size": [ 6, 15 ], "ends": 24 },
@@ -63,34 +63,34 @@
     ]
   },
   {
-    "name": "GROUP_MALL",
+    "id": "GROUP_MALL",
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_zombie_disser", "weight": 1, "cost_multiplier": 8 } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SMALL_STATION",
+    "id": "GROUP_SMALL_STATION",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_jolt", "weight": 30, "cost_multiplier": 7, "starts": "7 days" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_LARGE_STATION",
+    "id": "GROUP_LARGE_STATION",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_jolt", "weight": 30, "cost_multiplier": 7, "starts": "3 days" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ELECTRO",
+    "id": "GROUP_ELECTRO",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_jolt", "weight": 3, "cost_multiplier": 14, "starts": "7 days" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_PREPPER_HOUSE",
+    "id": "GROUP_PREPPER_HOUSE",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "name": "GROUP_PANICROOM",
+    "id": "GROUP_PANICROOM",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_zombie_fake_ichorus", "weight": 1, "cost_multiplier": 35 },
@@ -108,7 +108,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_HOUSE",
+    "id": "GROUP_HOUSE",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -118,21 +118,21 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_CHURCH_ZOMBIE",
+    "id": "GROUP_CHURCH_ZOMBIE",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_uruxis", "weight": 1, "cost_multiplier": 25 } ]
   },
   {
     "type": "monstergroup",
-    "name": "DUMP_ZOMBIES",
+    "id": "DUMP_ZOMBIES",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_fleshmonger", "weight": 1, "cost_multiplier": 30, "ends": "3 days" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SUBWAY",
+    "id": "GROUP_SUBWAY",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -151,7 +151,7 @@
   {
     "//": "Spawn random secrolab and vanilla creatures. Scientist are common here, followed by failed specimens.",
     "type": "monstergroup",
-    "name": "GROUP_SECROLAB_ALL",
+    "id": "GROUP_SECROLAB_ALL",
     "monsters": [
       { "monster": "mon_zedfail_seeker", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_zedfail_floral", "weight": 30, "cost_multiplier": 1 },
@@ -169,7 +169,7 @@
   {
     "//": "Spawn random secrolab specimens. Failed specimens are common here",
     "type": "monstergroup",
-    "name": "GROUP_SECROLAB_SPECIMENS",
+    "id": "GROUP_SECROLAB_SPECIMENS",
     "monsters": [
       { "monster": "mon_zedfail_floral", "weight": 30, "cost_multiplier": 0 },
       { "monster": "mon_zedfail_twistcrawl", "weight": 25, "cost_multiplier": 0 },
@@ -186,7 +186,7 @@
   {
     "//": "Spawn random secrolab failed specimens.",
     "type": "monstergroup",
-    "name": "GROUP_SECROLAB_FAILEDSPECIMENS",
+    "id": "GROUP_SECROLAB_FAILEDSPECIMENS",
     "monsters": [
       { "monster": "mon_zedfail_floral", "weight": 80, "cost_multiplier": 0 },
       { "monster": "mon_zedfail_twistcrawl", "weight": 110, "cost_multiplier": 0 },
@@ -198,7 +198,7 @@
   {
     "//": "Spawn random secrolab BOWs",
     "type": "monstergroup",
-    "name": "GROUP_SECROLAB_BOWSPECIMENS",
+    "id": "GROUP_SECROLAB_BOWSPECIMENS",
     "monsters": [
       { "monster": "mon_zedbow_axxuros", "weight": 75, "cost_multiplier": 0 },
       { "monster": "mon_zedbow_exios", "weight": 100, "cost_multiplier": 0 },
@@ -209,14 +209,14 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SEWER",
+    "id": "GROUP_SEWER",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_zombie_nautilus", "weight": 5, "cost_multiplier": 5 } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FOREST",
+    "id": "GROUP_FOREST",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -228,7 +228,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SWAMP",
+    "id": "GROUP_SWAMP",
     "override": false,
     "auto_total": true,
     "monsters": [
@@ -240,7 +240,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_CARRIONS",
+    "id": "GROUP_CARRIONS",
     "monsters": [
       { "monster": "mon_carrion_dismantler", "weight": 65, "cost_multiplier": 0 },
       { "monster": "mon_carrion_orifice", "weight": 80, "cost_multiplier": 0 },
@@ -249,7 +249,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_VECTORS",
+    "id": "GROUP_VECTORS",
     "monsters": [
       { "monster": "mon_vector_sprig", "weight": 100, "cost_multiplier": 0 },
       { "monster": "mon_vector_sprout", "weight": 70, "cost_multiplier": 0 },
@@ -260,7 +260,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_VECTOR_BIOME",
+    "id": "GROUP_VECTOR_BIOME",
     "monsters": [
       { "monster": "mon_vector_sprig", "weight": 30, "cost_multiplier": 0 },
       { "monster": "mon_vector_sprout", "weight": 80, "cost_multiplier": 0 },
@@ -271,7 +271,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_VECTOR_SEEDLING",
+    "id": "GROUP_VECTOR_SEEDLING",
     "monsters": [
       { "monster": "mon_vector_sprig", "weight": 100, "cost_multiplier": 0 },
       { "monster": "mon_vector_spore", "weight": 900 }
@@ -279,7 +279,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_JOLT_BOLTS",
+    "id": "GROUP_JOLT_BOLTS",
     "monsters": [
       { "monster": "mon_zombie_jolt_bolt_big", "weight": 300 },
       { "monster": "mon_zombie_jolt_bolt_smol", "weight": 700 }
@@ -287,12 +287,12 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_GORE_TENT",
+    "id": "GROUP_GORE_TENT",
     "monsters": [ { "monster": "mon_zombie_gorepit_tent" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_EQUINOX_CRAWLIES",
+    "id": "GROUP_EQUINOX_CRAWLIES",
     "monsters": [
       { "monster": "mon_zombie_equinox_necros_stab", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_zombie_equinox_necros_cut", "weight": 25, "cost_multiplier": 1 },
@@ -302,7 +302,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SADDLER",
+    "id": "GROUP_SADDLER",
     "monsters": [
       { "monster": "mon_insect_saddler_brute", "weight": 70, "cost_multiplier": 5 },
       { "monster": "mon_insect_saddler_scout", "weight": 90, "cost_multiplier": 3 },
@@ -317,7 +317,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SADDLER_ENTRANCE",
+    "id": "GROUP_SADDLER_ENTRANCE",
     "monsters": [
       { "monster": "mon_insect_saddler", "weight": 75, "cost_multiplier": 0 },
       { "monster": "mon_insect_saddler_brute", "weight": 1, "cost_multiplier": 7 },
@@ -333,7 +333,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SADDLER_CONTROLLED",
+    "id": "GROUP_SADDLER_CONTROLLED",
     "monsters": [
       { "monster": "mon_saddler_infected", "weight": 25, "cost_multiplier": 0 },
       { "monster": "mon_saddler_infected_brute", "weight": 10, "cost_multiplier": 0 },
@@ -345,7 +345,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SADDLER_USED",
+    "id": "GROUP_SADDLER_USED",
     "monsters": [
       { "monster": "mon_zombie_saddler_brute_used", "weight": 100, "cost_multiplier": 0 },
       { "monster": "mon_zombie_saddler_scout_used", "weight": 75, "cost_multiplier": 0 },
@@ -354,17 +354,17 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_RELINQUISH_REVIVE",
+    "id": "GROUP_RELINQUISH_REVIVE",
     "monsters": [ { "monster": "mon_zombie_relinquish_revived" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESH_TENTCLUS",
+    "id": "GROUP_FLESH_TENTCLUS",
     "monsters": [ { "monster": "mon_sflesh_vrumbler", "weight": 500 }, { "monster": "mon_sflesh_vbeast", "weight": 500 } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FF_SURFACE",
+    "id": "GROUP_FF_SURFACE",
     "monsters": [
       { "monster": "mon_sflesh_bear", "weight": 10, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_bear_cub", "weight": 8, "cost_multiplier": 0 },
@@ -395,7 +395,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FF_SHORE",
+    "id": "GROUP_FF_SHORE",
     "monsters": [
       { "monster": "mon_sflesh_beaver", "weight": 20, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_lemming", "weight": 35, "cost_multiplier": 0 },
@@ -406,12 +406,12 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FF_INSIDE",
+    "id": "GROUP_FF_INSIDE",
     "monsters": [ { "monster": "mon_sflesh" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESH",
+    "id": "GROUP_FLESH",
     "monsters": [
       { "monster": "mon_sflesh_bear", "weight": 10, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_bear_cub", "weight": 8, "cost_multiplier": 0 },
@@ -447,12 +447,12 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESH_WALL",
+    "id": "GROUP_FLESH_WALL",
     "monsters": [ { "monster": "mon_sflesh_flesh_wall" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESH_CITY",
+    "id": "GROUP_FLESH_CITY",
     "monsters": [
       { "monster": "mon_sflesh_zombie_turret", "weight": 10, "cost_multiplier": 5 },
       { "monster": "mon_sflesh_zombie", "weight": 1, "cost_multiplier": 7, "pack_size": [ 5, 20 ] },
@@ -516,27 +516,27 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESH_HEAP",
+    "id": "GROUP_FLESH_HEAP",
     "monsters": [ { "monster": "mon_sflesh_zombie" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SHIFTER",
+    "id": "GROUP_SHIFTER",
     "monsters": [ { "monster": "mon_shifter" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_VEINSTALK",
+    "id": "GROUP_VEINSTALK",
     "monsters": [ { "monster": "mon_sflesh_veinstalk" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESHLING",
+    "id": "GROUP_FLESHLING",
     "monsters": [ { "monster": "mon_sflesh_fleshling_tiny" } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESHLING_CHILDREN",
+    "id": "GROUP_FLESHLING_CHILDREN",
     "monsters": [
       { "monster": "mon_sflesh_fleshling_ravagy", "weight": 90, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_fleshling_scavengy", "weight": 120, "cost_multiplier": 0 },
@@ -545,7 +545,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESHLING_SCAVENGY_FORMS",
+    "id": "GROUP_FLESHLING_SCAVENGY_FORMS",
     "monsters": [
       { "monster": "mon_sflesh_fleshling_scavengy_explosive", "weight": 85, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_fleshling_scavengy_tent", "weight": 100, "cost_multiplier": 0 },
@@ -554,7 +554,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FLESHHEAP_DEATH",
+    "id": "GROUP_FLESHHEAP_DEATH",
     "monsters": [
       { "monster": "mon_sflesh_fleshling_med", "weight": 50, "cost_multiplier": 0 },
       { "monster": "mon_sflesh_fleshling_smol", "weight": 250, "cost_multiplier": 0 },
@@ -563,7 +563,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_GRUBBYWORMZ",
+    "id": "GROUP_GRUBBYWORMZ",
     "monsters": [
       { "monster": "mon_insect_parasiteworm_int", "weight": 250, "cost_multiplier": 0 },
       { "monster": "mon_insect_parasiteworm_move", "weight": 250, "cost_multiplier": 0 },
@@ -573,7 +573,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ROOF_ZOMBIE",
+    "id": "GROUP_ROOF_ZOMBIE",
     "monsters": [ { "monster": "mon_zombie_bootlegsmoker", "weight": 65, "cost_multiplier": 3, "starts": "3 days" } ]
   }
 ]
