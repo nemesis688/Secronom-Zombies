@@ -35,7 +35,8 @@
 			{ "type": "stab", "add": -24 },
 			{ "type": "bullet", "add": -24 },
 			{ "type": "acid", "add": -8 }
-		]
+          ],
+          "ench_effects": [ { "effect": "controlled", "intensity": 1 } ]
         }
       ]
     },

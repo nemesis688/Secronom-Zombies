@@ -89,6 +89,7 @@
     "valid_mods": [ "secro_flesh_reinforced_coat" ],
     "looks_like": "rucksack",
     "color": "red",
+	"max_worn": 1,
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -124,7 +125,7 @@
       }
     ],
     "warmth": 10,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE" ],
+    "flags": [ "BELTED", "WATERPROOF", "OVERSIZE" ],
     "material_thickness": 1,
     "armor": [ { "encumbrance": [ 16, 65 ], "coverage": 50, "covers": [ "torso" ] } ]
   }

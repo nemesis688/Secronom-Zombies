@@ -191,7 +191,7 @@
     "category": "armor",
     "name": { "str": "flesh vessel (on)", "str_pl": "flesh vessels (on)" },
     "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind.",
-    "power_draw": "4 kW",
+    "power_draw": "400 W",
     "revert_to": "secro_power_armor_flesh",
     "use_action": [
       {
@@ -250,7 +250,7 @@
     "category": "armor",
     "name": { "str": "flesh vessel (on)", "str_pl": "flesh vessels (on)" },
     "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind.",
-    "power_draw": "4 kW",
+    "power_draw": "400 W",
     "revert_to": "secro_power_armor_flesh2",
     "use_action": [
       {
@@ -309,7 +309,7 @@
     "category": "armor",
     "name": { "str": "flesh vessel (on)", "str_pl": "flesh vessels (on)" },
     "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind.",
-    "power_draw": "4 kW",
+    "power_draw": "400 W",
     "revert_to": "secro_power_armor_flesh3",
     "use_action": [
       {
