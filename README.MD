@@ -1,5 +1,5 @@
 1/14/2025
-- Built againsts experimental '2025-01-12-1820' still worked in '2025-01-14-1553'
+- Initially built againsts experimental '2025-01-12-1820'. Currently working in '2025-02-28-1723'
 
 
 The item groups are bit jank since I just pulled out and mildly tweaked old ones.
