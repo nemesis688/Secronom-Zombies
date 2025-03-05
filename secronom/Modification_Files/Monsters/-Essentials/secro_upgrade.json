@@ -43,7 +43,7 @@
     "monsters": [ { "monster": "mon_zombie_tendricles", "weight": 500 }, { "monster": "mon_zombie_thicktendrils", "weight": 500 } ]
   },
   {
-    "name": "GROUP_TENDRILS_UPGRADEX",
+    "id": "GROUP_TENDRILS_UPGRADEX",
     "//": "Cycle the evolution until it hits the final upgrade.",
     "type": "monstergroup",
     "monsters": [
